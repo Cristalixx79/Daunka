@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" conyent="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header _changable _black">
+            <nav class="header_container">
+                <div class="header_column">
+                    <a href="calculator.html" class="header_container_logo"></a>
+                </div>
+                <div class="header_column">
+                    <a href="info.html" class="header_container_element">Информация о теме лабораторной</a>
+                </div>
+                <div class="header_column">
+                    <a href="https://www.chemprom.org/" class="header_container_element">GitHub</a>
+                </div>
+            </nav>
+        </header>
+        <main class="calculator_wrapper">
+            <div class="calculator _changable _black">
+                <div id="result" class="result _changable _black"><span class="result-text">0</span></div>
+                <div class="calculator_buttons">
+                    <div>
+                        <button id="btn_op_clear" class="my-btn secondary _changable _black">C</button>
+                        <button id="btn_op_sign" class="my-btn secondary _changable _black">+/-</button>
+                        <button id="btn_op_percent" class="my-btn secondary _changable _black">%</button>
+                        <button id="btn_op_div" class="my-btn primary _changable _black">/</button>
+                    </div>
+
+                    <div>
+                        <button id="btn_digit_7" class="my-btn _changable _black">7</button>
+                        <button id="btn_digit_8" class="my-btn _changable _black">8</button>
+                        <button id="btn_digit_9" class="my-btn _changable _black">9</button>
+                        <button id="btn_op_mult" class="my-btn _changable primary _black">x</button>
+                    </div>
+
+                    <div>
+                        <button id="btn_digit_4" class="my-btn _changable _black">4</button>
+                        <button id="btn_digit_5" class="my-btn _changable _black">5</button>
+                        <button id="btn_digit_6" class="my-btn _changable _black">6</button>
+                        <button id="btn_op_minus" class="my-btn _changable primary _black">-</button>
+                    </div>
+
+                    <div>
+                        <button id="btn_digit_1" class="my-btn _changable _black">1</button>
+                        <button id="btn_digit_2" class="my-btn _changable _black">2</button>
+                        <button id="btn_digit_3" class="my-btn _changable _black">3</button>
+                        <button id="btn_op_plus" class="my-btn _changable primary _black">+</button>
+                    </div>
+
+                    <div>
+                        <button id="btn_digit_0" class="my-btn _changable _black">0</button>
+                        <button id="btn_digit_dot" class="my-btn _changable _black">.</button>
+                        <button id="btn_op_equal" class="my-btn primary execute _changable _black">=</button>
+                    </div>
+                </div>
+                <div class="calculator_theme">
+                    <button class="calculator_theme_btn _changable _black", id="btn">Сменить тему</button>
+                </div>
+            </div>
+            <div class="calculator_bg ibg _black">
+                <img src="img/02.png" alt="">
+            </div>
+            <div class="calculator_bg ibg _invisible _white">
+                <img src="img/03.png" alt="">
+            </div>
+        </main>
+        <footer class="footer _changable _black">
+            <div class="footer_container">
+                <div class="footer_text">ЛР выполнил Дейнеко А.В.</div>
+                <div class="footer_text">Контактный телефон: +7 (913) 724 32-87</div>
+                <a href="https://github.com/Cristalixx79/PSP" class="footer_text">О нас</a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

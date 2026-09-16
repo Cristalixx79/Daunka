@@ -1,0 +1,29 @@
+.footer {
+    width: 100vw;
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer._black {
+    background: rgb(126, 183, 202);
+}
+
+.footer._white {
+    background: #737676;
+}
+
+.footer_container {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_text {
+    margin-top: 2px;
+    line-height: 1.1rem;
+    text-align: center;
+    color: #edebeb;
+}

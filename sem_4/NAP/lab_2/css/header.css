@@ -1,0 +1,41 @@
+.header {
+    width: 100vw;
+    height: 80px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header._black {
+    background: rgb(44, 122, 148);
+}
+
+.header._white {
+    background: #322f2a;
+}
+
+.header_container {
+    width: 1280px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_container_logo {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 3px #3a3f3b;
+}
+
+.header_container_element {
+    color: #ffffff;
+    font-size: 20px;
+}

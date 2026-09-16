@@ -1,0 +1,141 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: auto;
+    height: 100vh;
+}
+
+.calculator_wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/bg.png");
+}
+
+.calculator {
+    padding: 0px 90px;
+    z-index: 2;
+    align-content: center;
+}
+
+.calculator_theme {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator_theme_btn {
+    padding: 30px;
+    color: #ffffff;
+    font-size: 22;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.calculator_theme_btn._black {
+    background-color: #80ccf0;
+}
+
+.calculator_theme_btn._white {
+    background: #a6a6a6;
+}
+
+.calculator_theme_btn:hover {
+    transform: scale(1.05);
+}
+
+.my-btn {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.my-btn._black {
+    background: #4764a3;
+}
+
+.my-btn._white {
+    background: #424141;
+}
+
+.my-btn._black:hover {
+    background: rgb(73, 96, 231);
+}
+
+.my-btn._white:hover {
+    background: rgb(50, 53, 53);
+}
+
+.my-btn:active {
+    filter: brightness(130%);
+}
+
+.my-btn.primary._black {
+    background: #abd153;
+}
+
+.my-btn.primary._white {
+    background: #ff9801;
+}
+
+.my-btn.secondary._black {
+    background: #80ccf0;
+}
+
+.my-btn.secondary._white {
+    background: #a6a6a6;
+}
+
+.my-btn.execute {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.result {
+    width: 300px;
+    height: 80px;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    border-radius: 3px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+
+.result._black {
+    background: #4764a3;
+}
+
+.result._white {
+    background: #515151;
+}
