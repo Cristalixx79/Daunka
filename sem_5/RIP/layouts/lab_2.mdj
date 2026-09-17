@@ -57,10 +57,10 @@
 									"font": "Arial;13;1",
 									"parentStyle": true,
 									"left": 184,
-									"top": 285,
+									"top": 173,
 									"width": 175.20263671875,
 									"height": 13,
-									"text": "users"
+									"text": "solar_panels_users"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -84,7 +84,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 189,
-											"top": 308,
+											"top": 196,
 											"width": 165.20263671875,
 											"height": 13
 										}
@@ -92,7 +92,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 184,
-									"top": 303,
+									"top": 191,
 									"width": 175.20263671875,
 									"height": 23
 								}
@@ -100,7 +100,7 @@
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"left": 184,
-							"top": 280,
+							"top": 168,
 							"width": 175.20263671875,
 							"height": 46,
 							"nameLabel": {
@@ -129,10 +129,10 @@
 									"font": "Arial;13;1",
 									"parentStyle": true,
 									"left": 616,
-									"top": 285,
+									"top": 173,
 									"width": 213.50439453125,
 									"height": 13,
-									"text": "likes"
+									"text": "solar_panels_likes"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -156,7 +156,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 621,
-											"top": 308,
+											"top": 196,
 											"width": 203.50439453125,
 											"height": 13
 										},
@@ -172,7 +172,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 621,
-											"top": 323,
+											"top": 211,
 											"width": 203.50439453125,
 											"height": 13
 										}
@@ -180,7 +180,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 616,
-									"top": 303,
+									"top": 191,
 									"width": 213.50439453125,
 									"height": 38
 								}
@@ -188,7 +188,7 @@
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"left": 616,
-							"top": 280,
+							"top": 168,
 							"width": 213.50439453125,
 							"height": 61,
 							"nameLabel": {
@@ -217,10 +217,10 @@
 									"font": "Arial;13;1",
 									"parentStyle": true,
 									"left": 376,
-									"top": 413,
+									"top": 301,
 									"width": 212.5078125,
 									"height": 13,
-									"text": "services"
+									"text": "solar_panels_services"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -244,7 +244,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 381,
-											"top": 436,
+											"top": 324,
 											"width": 202.5078125,
 											"height": 13
 										},
@@ -260,7 +260,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 381,
-											"top": 451,
+											"top": 339,
 											"width": 202.5078125,
 											"height": 13
 										},
@@ -276,7 +276,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 381,
-											"top": 466,
+											"top": 354,
 											"width": 202.5078125,
 											"height": 13
 										},
@@ -292,7 +292,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 381,
-											"top": 481,
+											"top": 369,
 											"width": 202.5078125,
 											"height": 13
 										},
@@ -308,7 +308,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 381,
-											"top": 496,
+											"top": 384,
 											"width": 202.5078125,
 											"height": 13
 										},
@@ -324,7 +324,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 381,
-											"top": 511,
+											"top": 399,
 											"width": 202.5078125,
 											"height": 13
 										},
@@ -340,7 +340,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 381,
-											"top": 526,
+											"top": 414,
 											"width": 202.5078125,
 											"height": 13
 										},
@@ -356,7 +356,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 381,
-											"top": 541,
+											"top": 429,
 											"width": 202.5078125,
 											"height": 13
 										},
@@ -372,7 +372,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 381,
-											"top": 556,
+											"top": 444,
 											"width": 202.5078125,
 											"height": 13
 										}
@@ -380,7 +380,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 376,
-									"top": 431,
+									"top": 319,
 									"width": 212.5078125,
 									"height": 143
 								}
@@ -388,7 +388,7 @@
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"left": 376,
-							"top": 408,
+							"top": 296,
 							"width": 212.5078125,
 							"height": 166,
 							"nameLabel": {
@@ -418,7 +418,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 287,
-									"top": 459,
+									"top": 347,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -436,7 +436,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 302,
-									"top": 345,
+									"top": 233,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -454,7 +454,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 350,
-									"top": 459,
+									"top": 347,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -472,7 +472,7 @@
 								"$ref": "AAAAAAGgpTb3zT8IpSo="
 							},
 							"lineStyle": 2,
-							"points": "287:326;287:480;376:480",
+							"points": "287:214;287:368;376:368",
 							"nameLabel": {
 								"$ref": "AAAAAAGgpTwYBD/B9qY="
 							},
@@ -503,7 +503,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 487,
-									"top": 288,
+									"top": 176,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -521,7 +521,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 384,
-									"top": 288,
+									"top": 176,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -539,7 +539,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 590,
-									"top": 288,
+									"top": 176,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -557,7 +557,7 @@
 								"$ref": "AAAAAAGgpTb3zT8IpSo="
 							},
 							"lineStyle": 2,
-							"points": "359:309;616:309",
+							"points": "359:197;616:197",
 							"nameLabel": {
 								"$ref": "AAAAAAGgpTzaXz/XJhc="
 							},
@@ -588,7 +588,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 657,
-									"top": 465,
+									"top": 353,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -606,7 +606,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 614,
-									"top": 451,
+									"top": 339,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -624,7 +624,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 657,
-									"top": 360,
+									"top": 248,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -642,7 +642,7 @@
 								"$ref": "AAAAAAGgpTiubz83r6A="
 							},
 							"lineStyle": 2,
-							"points": "589:472;672:472;672:341",
+							"points": "589:360;672:360;672:229",
 							"nameLabel": {
 								"$ref": "AAAAAAGgpT6EfkAHKq8="
 							},
@@ -661,7 +661,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGgpTbu2D8B4SY="
 					},
-					"name": "users",
+					"name": "solar_panels_users",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -740,7 +740,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGgpTbu2D8B4SY="
 					},
-					"name": "likes",
+					"name": "solar_panels_likes",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -774,7 +774,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGgpTbu2D8B4SY="
 					},
-					"name": "services",
+					"name": "solar_panels_services",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -883,8 +883,7 @@
 							},
 							"name": "price",
 							"type": "INTEGER",
-							"length": "15",
-							"nullable": true
+							"length": "15"
 						},
 						{
 							"_type": "ERDColumn",
@@ -894,8 +893,7 @@
 							},
 							"name": "kpd",
 							"type": "INTEGER",
-							"length": "15",
-							"nullable": true
+							"length": "15"
 						},
 						{
 							"_type": "ERDColumn",
@@ -905,7 +903,8 @@
 							},
 							"name": "image_url",
 							"type": "VARCHAR",
-							"length": "300"
+							"length": "300",
+							"nullable": true
 						},
 						{
 							"_type": "ERDColumn",
@@ -915,7 +914,8 @@
 							},
 							"name": "video_url",
 							"type": "VARCHAR",
-							"length": "300"
+							"length": "300",
+							"nullable": true
 						},
 						{
 							"_type": "ERDColumn",
