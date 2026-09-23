@@ -1,0 +1,39 @@
+EVALUATE
+    SUMMARIZECOLUMNS(
+        flight_delay_dataset[Destination_Airport],
+        "Всего пассажиров", COUNTROWS(passengers),
+        "Средняя задержка вылета", AVERAGE(flight_delay_dataset[Departure_Delay]),
+        "Максимальная задержка", MAX(flight_delay_dataset[Departure_Delay])
+    )
+    ORDER BY [Средняя задержка вылета] DESC
+
+EVALUATE
+    SUMMARIZECOLUMNS(
+        passengers[passenger_id],
+        passengers[first_name],
+        passengers[last_name],
+        "Кол-во платежей", COUNTROWS(RELATEDTABLE(payment)),
+        "Сумма по картам", COUNTROWS(RELATEDTABLE(payment))
+    )
+    ORDER BY [Кол-во платежей] DESC
+
+EVALUATE
+    SUMMARIZECOLUMNS(
+        flight_delay_dataset[flight_id],
+        flight_delay_dataset[Destination_Airport],
+        "Пассажиров на рейсе", COUNTROWS(passengers),
+        "Платежей по рейсу",
+            CALCULATE(
+                COUNTROWS(payment),
+                RELATEDTABLE(passengers)
+            ),
+        "Средняя задержка", AVERAGE(flight_delay_dataset[Departure_Delay])
+    )
+    ORDER BY [Пассажиров на рейсе] DESC
+
+EVALUATE
+    FILTER(
+        passengers,
+        COUNTROWS(RELATEDTABLE(payment)) = 0
+    )
+    ORDER BY passengers[last_name], passengers[first_name]

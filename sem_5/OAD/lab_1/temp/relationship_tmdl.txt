@@ -1,0 +1,7 @@
+createOrReplace
+	relationship ’passengers_to_payment’
+		fromColumn: payment.passenger_id
+		toColumn: passengers.passenger_id
+		fromCardinality: many
+		toCardinality: one
+		crossFilteringBehavior: bothDirections
