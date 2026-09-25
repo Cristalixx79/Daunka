@@ -1,5 +1,6 @@
 a0 = 15;  a1 = 5;  a2 = 0;  a3 = 1;  b = 15;
-x0_zero = [0 0 0]; x0_var6 = [1 0.5 0.1];
+x0_zero = [0 0 0];
+x0_var6 = [1 0.5 0.1];
 Tend  = 5;
 tspan = linspace(0, Tend, 501);
 opts  = odeset('RelTol', 1e-3, 'AbsTol', 1e-6);
@@ -19,12 +20,16 @@ for k = 1:size(exper, 1)
 
     switch u
         case 1
-            y = ones(size(t)); ylab = 'y(t) = 1(t)';
+            y = ones(size(t));
+            ylab = 'y(t) = 1(t)';
         case 2
-            y = sin(t); ylab = 'y(t) = sin(t)';
+            y = sin(t);
+            ylab = 'y(t) = sin(t)';
         otherwise
-            y = zeros(size(t)); ylab = 'y(t) = 0';
+            y = zeros(size(t));
+            ylab = 'y(t) = 0';
     end
+    
     leg = {'x_1(t)', 'x_2(t)', 'x_3(t)', ylab};
     if k == 1
         leg{1} = 'x_1(t) = h(t)';
