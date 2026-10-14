@@ -1,0 +1,18 @@
+services:
+  redis:
+    image: redis:7.2
+    container_name: redis          # то же имя, что в методичке: docker exec -it redis redis-cli
+    ports:
+      - "6379:6379"                # REDIS_HOST=localhost, REDIS_PORT=6379 в .env проекта
+    volumes:
+      - redis_data:/data           # сессии переживают перезапуск контейнера
+    command: ["redis-server", "--appendonly", "yes"]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  redis_data:
